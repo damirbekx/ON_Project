@@ -1,0 +1,82 @@
+.product_card {
+    border: 1px solid #EFF2F4;
+    padding: 20px;
+    max-width: 285px;
+}
+
+.product_img {
+    margin-bottom: 18px;
+}
+
+.product_title {
+    color:#0E2149;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.product_text {
+    color:#111;
+    font-family: "roboto";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 130%; /* 19.5px */
+    margin-bottom: 11px;
+}
+
+.product_price {
+    display: inline-block;
+    color: #0E2149;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.discount_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.disablet_price {
+    color: #D5AF86;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.button_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 9px;
+    margin-top: 24px;
+}
+
+.btn_primary {
+    background-color: #0E2149;
+    color: #FFF;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+    padding: 12px 26px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_light{
+    background-color: #CFB08B;
+    color: #FFF;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+    padding: 12px 26px;
+    border: none;
+    cursor: pointer;
+}
+
